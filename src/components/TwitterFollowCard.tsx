@@ -6,7 +6,7 @@ export function TwitterFollowCard({ userName, name }: { userName: string; name: 
       <header className='tw-followCard-header'>
         <img
           className='tw-followCard-avatar'
-          src={`https://unavatar.io/twitter/kikobeats${name}`}
+          src={`https://unavatar.io/${userName}`}
           alt="avatar"
         />
         <div className='tw-followCard-info'>
